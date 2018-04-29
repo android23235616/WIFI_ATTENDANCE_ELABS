@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.attendance.pranshooverma.wifi_attendance_elabs">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        android:required="true" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:required="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SendingAttendanceToDatabase">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Registration_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".FirebaseIdService"
+            android:enabled="true"
+            android:exported="true" >
+            <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+
+        </service>
+        <service
+            android:name=".FirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+
+            <action android:name="com.google.firebase.MESSAGING_EVENT" />
+        </service>
+    </application>
+
+</manifest>

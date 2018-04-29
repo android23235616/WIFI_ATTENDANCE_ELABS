@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "1081285903896",
+    "firebase_url": "https://elabs-attendance.firebaseio.com",
+    "project_id": "elabs-attendance",
+    "storage_bucket": "elabs-attendance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081285903896:android:a8738ed7f6af6fa5",
+        "android_client_info": {
+          "package_name": "com.example.tanmay.elabs_attendance_geofencing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081285903896-c16kv6ku7r9ev7kjnjpnivc412925vvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCISwHyHt1yD5ZNrzYzyikfVnwBwvGFvc0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081285903896:android:db53f94ef506811e",
+        "android_client_info": {
+          "package_name": "com.elabs.coordinators"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081285903896-ha3k32kq9e7edkhr3jd0sgjfd8gljf2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elabs.coordinators",
+            "certificate_hash": "03f202ff5b9ce25bbf40d33d518e8777bf8836ea"
+          }
+        },
+        {
+          "client_id": "1081285903896-c16kv6ku7r9ev7kjnjpnivc412925vvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCISwHyHt1yD5ZNrzYzyikfVnwBwvGFvc0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081285903896-c16kv6ku7r9ev7kjnjpnivc412925vvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081285903896:android:82508da25bc5b105",
+        "android_client_info": {
+          "package_name": "com.attendance.pranshooverma.wifi_attendance_elabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081285903896-856s67c84ekjseqicctpm1644fsfg0d6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.attendance.pranshooverma.wifi_attendance_elabs",
+            "certificate_hash": "e8a033749d8ff8842255fdf8cac3c141029b9595"
+          }
+        },
+        {
+          "client_id": "1081285903896-c16kv6ku7r9ev7kjnjpnivc412925vvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCISwHyHt1yD5ZNrzYzyikfVnwBwvGFvc0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081285903896-c16kv6ku7r9ev7kjnjpnivc412925vvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
